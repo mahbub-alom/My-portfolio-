@@ -6,6 +6,7 @@ import Img2 from '../assets/portfolio2.png'
 import Img3 from '../assets/portfolio3.png'
 
 
+
 const Work = () => {
   return (
     <section id="work" className="section">
@@ -29,6 +30,7 @@ const Work = () => {
                 growth in children.
               </p>
               <button className="btn btn-sm cursor-pointer">View all projects</button>
+              
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>

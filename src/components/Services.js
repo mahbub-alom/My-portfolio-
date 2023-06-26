@@ -74,12 +74,12 @@ const Services = () => {
                       </p>
                     </div>
                     <div className="flex flex-col flex-1 items-end">
-                      <a
-                        className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
+                      {/* <a
                         href="#"
+                        className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
                       >
                         <BsArrowUpRight></BsArrowUpRight>
-                      </a>
+                      </a> */}
                       <a className="text-gradient text-sm" href="#">
                         {link}
                       </a>

@@ -65,7 +65,7 @@ const Banner = () => {
               className="flex items-center max-w-max gap-x-6 mb-12 mx-auto lg:mx-0"
             >
               <button className="btn btn-lg">Contact me</button>
-              <a className="text-gradient btn-link" href="#">
+              <a className="text-gradient btn-link no-underline" href="#">
                 My Portfolio
               </a>
             </motion.div>
@@ -76,11 +76,10 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="#">
-                {" "}
-                <FaGithub></FaGithub>{" "}
+              <a href="https://github.com/mahbub-alom">
+                <FaGithub></FaGithub>
               </a>
-              <a href="#">
+              <a href="https://github.com/mahbub-alom">
                 {" "}
                 <FaDribbble></FaDribbble>{" "}
               </a>

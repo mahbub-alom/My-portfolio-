@@ -7,6 +7,8 @@ import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import MyAllProjects from './components/MyAllProjects';
+
 
 const App = () => {
   return (
@@ -18,6 +20,7 @@ const App = () => {
       <Services />
       <Work />
       <Contact />
+      <MyAllProjects/>
       {/* <div className='h-[4000px]'></div> */}
     </div>
   );
