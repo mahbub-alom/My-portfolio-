@@ -29,7 +29,7 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
-              I'm a MERN stack Developer with over 2 years of experience.
+              I'm a MERN stack Developer.
             </h3>
             <p className="mb-6">
               MERN stack developers build the interface that users see and
@@ -41,7 +41,7 @@ const About = () => {
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? (
-                    <CountUp start={0} end={2} duration={3}></CountUp>
+                    <CountUp start={0} end={0} duration={3}></CountUp>
                   ) : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -52,7 +52,7 @@ const About = () => {
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? (
-                    <CountUp start={0} end={45} duration={3}></CountUp>
+                    <CountUp start={0} end={10} duration={3}></CountUp>
                   ) : null}
                   +
                 </div>
@@ -64,7 +64,7 @@ const About = () => {
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? (
-                    <CountUp start={0} end={500} duration={3}></CountUp>
+                    <CountUp start={0} end={0} duration={3}></CountUp>
                   ) : null}
                   +
                 </div>
