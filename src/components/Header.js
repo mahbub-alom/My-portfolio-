@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../assets/logo.svg";
 import { saveAs } from "file-saver";
 
 const Header = () => {
