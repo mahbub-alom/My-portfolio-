@@ -1,5 +1,5 @@
 import React from "react";
-import { BsArrowUpRight } from "react-icons/bs";
+
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
@@ -80,7 +80,7 @@ const Services = () => {
                       >
                         <BsArrowUpRight></BsArrowUpRight>
                       </a> */}
-                      <a className="text-gradient text-sm" href="#">
+                      <a className="text-gradient text-sm" href="#services">
                         {link}
                       </a>
                     </div>

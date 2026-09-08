@@ -65,7 +65,7 @@ const Banner = () => {
               className="flex items-center max-w-max gap-x-6 mb-12 mx-auto lg:mx-0"
             >
               <button className="btn btn-lg">Contact me</button>
-              <a className="text-gradient btn-link no-underline" href="#">
+              <a className="text-gradient btn-link no-underline" href="#home">
                 My Portfolio
               </a>
             </motion.div>
@@ -91,7 +91,7 @@ const Banner = () => {
             whileInView={"show"}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto"
           >
-            <img src={Image} />
+            <img src={Image} alt='profile'/>
           </motion.div>
         </div>
       </div>
